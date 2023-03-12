@@ -1,0 +1,172 @@
+"Facility_category";"facility_name";"product_name";"product_number";"Max_in_stock_amount_full";"Max_in_stock_unit_full";"Consumption_L_per_yr_full";"Consumption_Kg_per_yr_full";"CAS_number";"min_conc_frac";"max_conc_frac"
+"Category_01";"Facility_01";"Ekoflock Swed Handling AB";1;NA;"";NA;712.8;"1327-41-9";0.18;0.43
+"Category_01";"Facility_02";"Heavy duty TFR";2;NA;"";NA;442;"68439-46-3";0.01;0.1
+"Category_01";"Facility_02";"Heavy duty TFR";2;NA;"";NA;442;"164462-16-2";0.1;0.3
+"Category_01";"Facility_02";"Heavy duty TFR";2;NA;"";NA;442;"2634-33-5";0.001;0.001
+"Category_01";"Facility_02";"Heavy duty TFR";2;NA;"";NA;442;"1310-73-2";0.001;0.001
+"Category_01";"Facility_02";"Heavy duty TFR";2;NA;"";NA;442;"68439-45-2";0;0.05
+"Category_01";"Facility_02";"Heavy duty TFR";2;NA;"";NA;442;"34590-94-8";0;0.05
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"6834-92-0";0;0.05
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"1310-73-2";0;0.05
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"164462-16-2";0.01;0.1
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"68439-46-3";0.01;0.1
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"931-296-8";0.01;0.1
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"13463-41-7";0.001;0.001
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"2682-20-4";0.001;0.001
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"2634-33-5";0.001;0.001
+"Category_01";"Facility_02";"insekt remover";3;NA;"";NA;107;"1310-73-2";0;0.05
+"Category_02";"Facility_03";"Altech 10";4;NA;"";200;NA;"107-21-1";0.9;1
+"Category_02";"Facility_04";"mac 10";5;75;"l";300;NA;"1310-58-3";0.1;0.2
+"Category_02";"Facility_04";"mac 10";5;75;"l";300;NA;"13845-36-8";0.01;0.05
+"Category_03";"Facility_05";"SALPETERSYRA 53% / BULK";6;NA;"";NA;11000;"7697-37-2";0.5;0.6
+"Category_03";"Facility_05";"Food Grade PDV Salt Standard";7;NA;"";NA;228000;"7647-14-5";0.995;0.995
+"Category_03";"Facility_05";"Food Grade PDV Salt Standard";7;NA;"";NA;228000;"7647-14-5";0.995;0.995
+"Category_03";"Facility_06";"No-Tox Synthetic EP Grease 2";8;5;"l";14.4;NA;"68037-01-4";0.8;1
+"Category_03";"Facility_06";"No-Tox Synthetic EP Grease 2";8;5;"l";14.4;NA;"54326-11-3";0.025;0.1
+"Category_03";"Facility_06";"No-Tox Synthetic EP Grease 2";8;5;"l";14.4;NA;"1314-13-2";0.01;0.05
+"Category_04";"Facility_07";"Märkspray Gul";9;NA;"";0.5;NA;"78-93-3";0.1;0.1
+"Category_04";"Facility_07";"Märkspray Gul";9;NA;"";0.5;NA;"108-65-6";0.1;0.1
+"Category_04";"Facility_07";"Märkspray Gul";9;NA;"";0.5;NA;"85711-55-3";0.001;0.001
+"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"67-64-1";0.025;0.025
+"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"67-63-0";0.1;0.1
+"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"64-17-5";0.5;0.5
+"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"78-93-3";0.05;0.05
+"Category_05";"Facility_09";"Prorange fast cut 13e";11;NA;"";30;NA;"64742-55-8";0.1;0.25
+"Category_05";"Facility_09";"Prorange fast cut 13e";11;NA;"";30;NA;"64742-48-9";0.1;0.25
+"Category_06";"Facility_10";"HHS lube";12;NA;"";9.5;NA;"64742-49-0";0.15;0.2
+"Category_06";"Facility_10";"HHS lube";12;NA;"";9.5;NA;"64742-48-9";0.03;0.05
+"Category_06";"Facility_10";"Aktiv Clean";13;NA;"";4.5;NA;"34590-94-8";0.01;0.1
+"Category_06";"Facility_10";"Aktiv Clean";13;NA;"";4.5;NA;"68188-18-1";0.01;0.025
+"Category_06";"Facility_10";"Aktiv Clean";13;NA;"";4.5;NA;"2682-20-4";2e-06;2.5e-05
+"Category_06";"Facility_11";"Glaceol";14;NA;"";309;NA;"107-21-1";0.6;0.6
+"Category_06";"Facility_11";"Glaceol";14;NA;"";309;NA;"107-21-1";0.6;0.6
+"Category_06";"Facility_12";"total clean";15;NA;"";NA;5;"68439-46-3";0.05;0.05
+"Category_06";"Facility_12";"Kylarvätska";16;NA;"";500;NA;"107-21-1";0.6;0.6
+"Category_06";"Facility_12";"Kylarvätska";16;NA;"";500;NA;"19766-89-3";0.01;0.05
+"Category_06";"Facility_12";"Kylarvätska";16;NA;"";500;NA;"3734-33-6";1e-04;1e-04
+"Category_07";"Facility_13";"Naturavfettning koncentrerad";17;NA;"";20;NA;"68439-46-3";0.03;0.05
+"Category_07";"Facility_13";"Naturavfettning koncentrerad";17;NA;"";20;NA;"135-37-5";0.012;0.017
+"Category_07";"Facility_14";"Firegum";18;0.15;"kg";NA;0;"1344-09-8";0.6;0.6
+"Category_07";"Facility_14";"Locher Pasta Special";19;0.5;"kg";NA;0.1;"14807-96-6";0.2;0.2
+"Category_07";"Facility_14";"Scantech spray grease";20;2.5;"l";1.5;NA;"64742-48-9";0.25;0.6
+"Category_07";"Facility_14";"Scantech spray grease";20;2.5;"l";1.5;NA;"106-97-8";0.1;0.25
+"Category_07";"Facility_14";"Scantech spray grease";20;2.5;"l";1.5;NA;"74-98-6";0.1;0.25
+"Category_07";"Facility_14";"Scantech spray grease";20;2.5;"l";1.5;NA;"68411-46-1";0.01;0.05
+"Category_07";"Facility_14";"Scantech spray grease";20;2.5;"l";1.5;NA;"108-32-7";0.01;0.05
+"Category_07";"Facility_14";"Scantech spray grease";20;2.5;"l";1.5;NA;"109-66-0";0.01;0.01
+"Category_07";"Facility_14";"MERETA 220";21;100;"l";60;NA;"128-37-0";0.0025;0.01
+"Category_07";"Facility_14";"MERETA 220";21;100;"l";60;NA;"110-25-8";0.001;0.0025
+"Category_08";"Facility_15";"Scantech allround cleaner";22;NA;"";1;NA;"68512-91-4";0.5;0.75
+"Category_08";"Facility_15";"Scantech allround cleaner";22;NA;"";1;NA;"67-63-0";0.25;0.5
+"Category_08";"Facility_15";"Q8 Glykol Long Life Plus";23;NA;"";100;NA;"107-21-1";0.9;0.9
+"Category_08";"Facility_15";"Q8 Oil 2200";24;NA;"";20;NA;"64742-65-0";0.25;0.5
+"Category_08";"Facility_15";"Q8 Oil 2200";24;NA;"";20;NA;"64742-54-7";0.01;0.03
+"Category_08";"Facility_15";"Q8 Oil 2200";24;NA;"";20;NA;"4259-15-8";0.01;0.02
+"Category_08";"Facility_16";"Zak Citron";25;NA;"";20;NA;"7320-34-5";0.01;0.05
+"Category_08";"Facility_16";"Zak Citron";25;NA;"";20;NA;"68439-46-3";0.01;0.05
+"Category_08";"Facility_16";"Zak Citron";25;NA;"";20;NA;"34398-01-1";0.01;0.05
+"Category_08";"Facility_16";"Zak Citron";25;NA;"";20;NA;"94441-92-6";0.001;0.01
+"Category_08";"Facility_16";"Zak Citron";25;NA;"";20;NA;"10213-79-3";0.01;0.05
+"Category_08";"Facility_16";"Zak Citron";25;NA;"";20;NA;"127036-24-2";0.001;0.01
+"Category_09";"Facility_17";"Mac 2021fb";26;160;"l";1800;NA;"94441-92-6";0.01;0.05
+"Category_09";"Facility_17";"Mac 2021fb";26;160;"l";1800;NA;"164462-16-2";0.01;0.05
+"Category_09";"Facility_17";"Mac 2021fb";26;160;"l";1800;NA;"64-17-5";0.01;0.01
+"Category_09";"Facility_17";"Mac 2021fb";26;160;"l";1800;NA;"1310-58-3";0.01;0.01
+"Category_09";"Facility_17";"Mac 2021fb";26;160;"l";1800;NA;"160875-66-1";0.01;0.01
+"Category_09";"Facility_17";"Mac 2021fb";26;160;"l";1800;NA;"111-76-2";0.01;0.01
+"Category_09";"Facility_17";"Mac 2021fb";26;160;"l";1800;NA;"67-63-0";0.01;0.01
+"Category_10";"Facility_18";"Svavelsyra 37 %";27;NA;"";NA;15000;"7664-93-9";0.37;0.37
+"Category_10";"Facility_18";"Bio-tector Base";28;NA;"";NA;10;"1310-73-2";0.03;0.03
+"Category_10";"Facility_18";"Bio-tector syrareagens";29;NA;"";NA;10;"7664-93-9";0.05;0.05
+"Category_10";"Facility_18";"Bio-tector syrareagens";29;NA;"";NA;10;"7785-87-7";0.005;0.005
+"Category_11";"Facility_19";"14196 Lackspray";30;0.4;"l";2;NA;"67-64-1";0.2;0.5
+"Category_11";"Facility_19";"14196 Lackspray";30;0.4;"l";2;NA;"108-65-6";0.01;0.2
+"Category_11";"Facility_19";"14196 Lackspray";30;0.4;"l";2;NA;"67-63-0";0.01;0.2
+"Category_11";"Facility_19";"14196 Lackspray";30;0.4;"l";2;NA;"1330-20-7";0.01;0.1
+"Category_11";"Facility_19";"14196 Lackspray";30;0.4;"l";2;NA;"34140-91-5";1e-04;0.00025
+"Category_12";"Facility_20";"Ozerna Rainbow";31;50;"kg";NA;40;"6834-92-0";0.01;0.1
+"Category_12";"Facility_20";"Ozerna Rainbow";31;50;"kg";NA;40;"497-19-8";0.25;0.5
+"Category_12";"Facility_20";"Ozerna Rainbow";31;50;"kg";NA;40;"157627-86-6";0.01;0.1
+"Category_12";"Facility_20";"Ozerna Rainbow";31;50;"kg";NA;40;"68411-30-3";0.01;0.1
+"Category_12";"Facility_20";"MP 52 Väck Fläck";32;1;"l";0.1;NA;"67-63-0";0.1;0.2
+"Category_12";"Facility_21";"Bisoft Duo Blue";33;NA;"";NA;200;"67-63-0";0.02;0.02
+"Category_12";"Facility_21";"Mulan Spirit";34;NA;"";NA;600;"69011-36-5";0.15;0.3
+"Category_12";"Facility_21";"Mulan Spirit";34;NA;"";NA;600;"69011-36-5";0.3;0.3
+"Category_12";"Facility_21";"Mulan Spirit";34;NA;"";NA;600;"9014-01-1";0.005;0.005
+"Category_13";"Facility_22";"Hydra";35;NA;"";20;NA;"1310-58-3";0.05;0.15
+"Category_13";"Facility_22";"Hydra";35;NA;"";20;NA;"94441-92-6";0.01;0.05
+"Category_13";"Facility_22";"Hydra";35;NA;"";20;NA;"66019-18-9";0.01;0.05
+"Category_13";"Facility_22";"R-Ett Tuff";36;NA;"";NA;48;"1310-73-2";0.15;0.3
+"Category_13";"Facility_22";"R-Ett Tuff";36;NA;"";NA;48;"6834-92-0";0.05;0.15
+"Category_13";"Facility_23";"virkon";37;1.7;"kg";NA;0.5;"70693-62-8";0.4;0.5
+"Category_13";"Facility_23";"virkon";37;1.7;"kg";NA;0.5;"68915-31-1";0.2;0.25
+"Category_13";"Facility_23";"virkon";37;1.7;"kg";NA;0.5;"90194-45-9";0.1;0.12
+"Category_13";"Facility_23";"virkon";37;1.7;"kg";NA;0.5;"6915-15-7";0.07;0.1
+"Category_13";"Facility_23";"virkon";37;1.7;"kg";NA;0.5;"5329-14-6";0.04;0.06
+"Category_13";"Facility_23";"virkon";37;1.7;"kg";NA;0.5;"7727-21-1";0.0149;0.0149
+"Category_13";"Facility_23";"Lysis Reagent 1 part of cAMP kit";38;0.002;"kg";NA;0;"1119-94-4";1;1
+"Category_13";"Facility_23";"Developer";39;0.5;"l";0.05;NA;"497-19-8";0.01;0.05
+"Category_14";"Facility_24";"Bromsrengöring 500ml";40;6;"l";120;NA;"124-38-9";0.01;0.05
+"Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"68037-01-4";0.5;0.7
+"Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"64742-55-8";0.01;0.1
+"Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"398141-87-2";0.01;0.025
+"Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"67124-09-8";0.002;0.01
+"Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"61791-44-4";0.001;0.001
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"64741-88-4";0.4;0.42
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"64742";0.28;0.32
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"112-90-3";0.0083;0.0083
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"93925-00-9";0.00415;0.00415
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"64742-95-6";0.00083;0.00083
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"95-63-6";0.00083;0.00083
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"64742-54-7";0.25;0.35
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"597-82-0";0.003;0.01
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"68937-96-2";0.025;0.1
+"Category_14";"Facility_24";"Transmissionolja Teboil Hypoid 75w-90";42;6000;"l";1700;NA;"64742-70-7";0.35;0.45
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"67-64-1";0.25;0.35
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"106-97-8";0.15;0.2
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"74-98-6";0.1;0.125
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"1330-20-7";0.05;0.07
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"123-86-4";0.05;0.07
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"108-10-1";0.02;0.03
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"9004-70-0";0.015;0.02
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"64-17-5";0.01;0.015
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"115-10-6";0.125;0.15
+"Category_15";"Facility_25";"Lackspray";43;2;"kg";NA;2;"108-65-6";0.02;0.03
+"Category_16";"Facility_26";"COPOLYMER 845 G";44;NA;"";0;245;"30581-59-0";0.2;0.25
+"Category_16";"Facility_26";"GANTREZ SUPER A-425";45;NA;"";0;6275;"71-36-3";0.05;0.1
+"Category_16";"Facility_26";"GANTREZ SUPER A-425";45;NA;"";0;6275;"64-17-5";0.4;0.5
+"Category_16";"Facility_26";"STYLEZE CC-10";46;NA;"";0;483;"7732-18-5";0.9;0.9
+"Category_16";"Facility_26";"STYLEZE CC-10";46;NA;"";0;483;"175893-71-7";0.1;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"54464-57-2";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"55066-48-3";0.025;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"25634-93-9";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"28219-61-6";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"18127-01-0";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"18479-58-8";0.025;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"7212-44-4";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"1960-12-08";0.025;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"63500-71-0";0.025;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"6259-76-3";0.025;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"65405-77-8";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"140-11-4";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"10339-55-6";0.025;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"103694-68-4";0.025;0.1
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"105-87-3";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"103-95-7";0;0.025
+"Category_16";"Facility_26";"PARF. JUST MILD";47;NA;"";0;26;"106-02-5";0.025;0.1
+"Category_16";"Facility_26";"LIPOCOL L-12s LIPOCOL TD-12";48;NA;"";0;31;"24938-91-8";1;1
+"Category_16";"Facility_26";"KAMFER NATURLIG  ART. 400971";49;NA;"";0;25;"464-49-3";1;1
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"68737-61-1";0.001;0.01
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"5989-27-5";0.01;0.05
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"5392-40-5";0.001;0.01
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"54464-57-2";0.2;0.3
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"25265-71-8";0.1;0.2
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"101-86-0";0.01;0.05
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"10339-55-6";0.01;0.05
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"127-91-3";0.001;0.01
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"128-37-0";0.01;0.05
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"1222-05-5";0.2;0.3
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"1205-17-0";0.01;0.05
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"117933-89-8";0.001;0.01
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"88-41-5";0.01;0.05
+"Category_16";"Facility_26";"PARF. PROVENCE R15-5756";50;NA;"";0;14;"80-56-8";0.001;0.01

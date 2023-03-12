@@ -1,0 +1,13 @@
+name: raven_stream
+title:
+username:
+account: raven-stream
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5154327
+bundleId: 6948226
+url: https://raven-stream.shinyapps.io/raven_stream/
+when: 1678624622.23117
+lastSyncTime: 1678624622.23117
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,68 @@
+"Facility_category";"facility_name";"product_name";"product_number";"Max_in_stock_amount_full";"Max_in_stock_unit_full";"Consumption_L_per_yr_full";"Consumption_Kg_per_yr_full";"CAS_number";"min_conc_frac";"max_conc_frac"
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"164462-16-2";0.1;0.3
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"6834-92-0";0.01;0.1
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"24938-91-8";0.01;0.1
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"68439-46-3";0.01;0.1
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"34590-94-8";0.01;0.1
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"2634-33-5";0.001;0.001
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"1310-73-2";0.001;0.001
+"Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"24938-91-8";0.01;0.1
+"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvätska";2;100;"l";350;NA;"141-43-5";0.01;0.05
+"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvätska";2;100;"l";350;NA;"66204-44-2";0.01;0.05
+"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvätska";2;100;"l";350;NA;"55406-53-6";0;0.01
+"Category_03";"Facility_03";"Herofix Cleaner 49i";3;NA;"";4.2;NA;"107-98-2";0.3;0.6
+"Category_03";"Facility_03";"Herofix Cleaner 49i";3;NA;"";4.2;NA;"64-17-5";0.15;0.3
+"Category_03";"Facility_03";"Herofix Cleaner 49i";3;NA;"";4.2;NA;"926-141-6";0.15;0.3
+"Category_03";"Facility_03";"Herofix Cleaner 49i";3;NA;"";4.2;NA;"67-63-0";0.05;0.15
+"Category_04";"Facility_04";"Argon";4;60;"l";NA;60;"7440-37-1";1;1
+"Category_05";"Facility_05";"Optipit";5;NA;"";NA;5;"7620-77-1";0.05;0.05
+"Category_05";"Facility_05";"Optipit";5;NA;"";NA;5;"64754-95-6";0.03;0.03
+"Category_05";"Facility_05";"Optipit";5;NA;"";NA;5;"412-780-3";0.03;0.03
+"Category_05";"Facility_05";"Optipit";5;NA;"";NA;5;"1310-65-2";0.003;0.003
+"Category_05";"Facility_05";"Motoroil 5W-30";6;NA;"";80;NA;"68649-42-3";0.025;0.025
+"Category_05";"Facility_06";"Yes Powerdrops";7;NA;"";NA;4;"497-19-8";0.3;0.5
+"Category_05";"Facility_06";"Yes Powerdrops";7;NA;"";NA;4;"111905-53-4";0.01;0.01
+"Category_05";"Facility_06";"Yes Powerdrops";7;NA;"";NA;4;"15630-89-4";0.1;0.2
+"Category_05";"Facility_06";"Yes Powerdrops";7;NA;"";NA;4;"9014-01-1";0.01;0.01
+"Category_06";"Facility_07";"HHS Lube 500 ml";8;NA;"";NA;1;"64742-49-0";0.15;0.2
+"Category_06";"Facility_07";"HHS Lube 500 ml";8;NA;"";NA;1;"64742-48-9";0.03;0.05
+"Category_07";"Facility_08";"Lena Mjuk";9;NA;"";6;NA;"93334-15-7";0.04;0.04
+"Category_07";"Facility_08";"Lena Mjuk";9;NA;"";6;NA;"16828-12-9";0.00075;0.00075
+"Category_07";"Facility_08";"Lena Mjuk";9;NA;"";6;NA;"9043-30-5";0.005;0.005
+"Category_07";"Facility_08";"Lena Mjuk";9;NA;"";6;NA;"532-32-1";0.002;0.002
+"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"100-51-6";0.4;0.6
+"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"1119-40-0";0.15;0.25
+"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"106-65-0";0.05;0.1
+"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"327-93-0";0.05;0.1
+"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"9004-65-3";0.0025;0.01
+"Category_08";"Facility_10";"Dermasil Protein";11;400;"l";598;NA;"9014-01-1";0.001;0.01
+"Category_08";"Facility_10";"Dermasil Protein";11;400;"l";598;NA;"87199-17-5";0.001;0.01
+"Category_08";"Facility_11";"Sultraspot HC";12;NA;"";NA;80;"106232-83-1";0.15;0.15
+"Category_08";"Facility_11";"Sultraspot HC";12;NA;"";NA;80;"112-34-5";0.15;0.15
+"Category_08";"Facility_11";"Sultraspot HC";12;NA;"";NA;80;"68308-64-5";0.15;0.15
+"Category_08";"Facility_11";"Sultraspot HC";12;NA;"";NA;80;"852337-30-5";0.15;0.15
+"Category_08";"Facility_11";"Sultraspot HC";12;NA;"";NA;80;"139-07-1";0.05;0.05
+"Category_08";"Facility_11";"Sultraspot HC";12;NA;"";NA;80;"139-08-2";0.01;0.01
+"Category_08";"Facility_11";"Prenett K4";13;NA;"";NA;10;"209-406-4";0.15;0.3
+"Category_09";"Facility_12";"Chloroform: ISoamylalcohol 24:1";14;0.49;"l";0;NA;"67-66-3";0.96;0.96
+"Category_09";"Facility_12";"Chloroform: ISoamylalcohol 24:1";14;0.49;"l";0;NA;"123-51-3";0.04;0.04
+"Category_10";"Facility_13";"Mercalin LS Linjespray, 750 ml";15;9;"l";9;NA;"64742-48-9";0.15;0.25
+"Category_10";"Facility_13";"Mercalin LS Linjespray, 750 ml";15;9;"l";9;NA;"64742-82-1";0.05;0.1
+"Category_10";"Facility_13";"Mercalin LS Linjespray, 750 ml";15;9;"l";9;NA;"96-29-7";0.0015;0.0015
+"Category_10";"Facility_13";"Mercalin LS Linjespray, 750 ml";15;9;"l";9;NA;"115-10-6";0.2;0.4
+"Category_10";"Facility_13";"Mercalin LS Linjespray, 750 ml";15;9;"l";9;NA;"67761-96-0";0.15;0.2
+"Category_10";"Facility_13";"Mercalin LS Linjespray, 750 ml";15;9;"l";9;NA;"13463-67-7";0.22;0.22
+"Category_11";"Facility_14";"Swanline max";16;NA;"";2780;NA;"1310-73-2";0.001;0.004
+"Category_11";"Facility_14";"Swanline max";16;NA;"";2780;NA;"54549-24-5";0.14;0.19
+"Category_12";"Facility_15";"ESCALOL S (TINOSORB S)";17;NA;"";0;190;"187393-00-6";0.9;1
+"Category_12";"Facility_15";"CRODAMOL AB-LQ-(RB)";18;NA;"";0;160;"68411-27-8";1;1
+"Category_12";"Facility_15";"PARF. BRUNETTE 0910247";19;NA;"";0;23;"91-64-5";0.015;0.015
+"Category_12";"Facility_15";"PARF. BRUNETTE 0910247";19;NA;"";0;23;"141-78-6";0.003;0.003
+"Category_12";"Facility_15";"PARF. BRUNETTE 0910247";19;NA;"";0;23;"123-11-5";0.02;0.02
+"Category_12";"Facility_15";"PARF. BRUNETTE 0910247";19;NA;"";0;23;"121-32-4";0.05;0.05
+"Category_12";"Facility_15";"PARF. BRUNETTE 0910247";19;NA;"";0;23;"3658-77-3";0.001;0.001
+"Category_12";"Facility_15";"PARF. BRUNETTE 0910247";19;NA;"";0;23;"431-03-8";0.0055;0.0055
+"Category_12";"Facility_15";"PARF. BRUNETTE 0910247";19;NA;"";0;23;"4940-11-08";0.02;0.02
+"Category_12";"Facility_15";"SEPIGEL 305";20;NA;"";0;48;"*137";0.1;0.2
+"Category_12";"Facility_15";"SEPIGEL 305";20;NA;"";0;48;"*138";0.01;0.05
+"Category_12";"Facility_15";"SEPIGEL 305";20;NA;"";0;48;"3055-97-8";0.01;0.05
