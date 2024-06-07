@@ -7,7 +7,7 @@ The following updates were made to the code to reflect changes made to the R Shi
 - A new version of app.R was uploaded with small changes to the GUI
 - New version of Load_Sample_Data.csv uploaded with non-latin characters removed
 - New version of RAVEN_STREAM_Data_Template.csv uploaded with non-latin characters removed
-- User's Guide file uploaded
+- New User's Guide file uploaded
 
 Notes from original upload on 2023/03/12:
 
