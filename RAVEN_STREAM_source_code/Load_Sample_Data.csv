@@ -24,13 +24,13 @@
 "Category_03";"Facility_06";"No-Tox Synthetic EP Grease 2";8;5;"l";14.4;NA;"68037-01-4";0.8;1
 "Category_03";"Facility_06";"No-Tox Synthetic EP Grease 2";8;5;"l";14.4;NA;"54326-11-3";0.025;0.1
 "Category_03";"Facility_06";"No-Tox Synthetic EP Grease 2";8;5;"l";14.4;NA;"1314-13-2";0.01;0.05
-"Category_04";"Facility_07";"Märkspray Gul";9;NA;"";0.5;NA;"78-93-3";0.1;0.1
-"Category_04";"Facility_07";"Märkspray Gul";9;NA;"";0.5;NA;"108-65-6";0.1;0.1
-"Category_04";"Facility_07";"Märkspray Gul";9;NA;"";0.5;NA;"85711-55-3";0.001;0.001
-"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"67-64-1";0.025;0.025
-"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"67-63-0";0.1;0.1
-"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"64-17-5";0.5;0.5
-"Category_04";"Facility_08";"T-röd";10;2;"l";4;NA;"78-93-3";0.05;0.05
+"Category_04";"Facility_07";"Markspray Gul";9;NA;"";0.5;NA;"78-93-3";0.1;0.1
+"Category_04";"Facility_07";"Markspray Gul";9;NA;"";0.5;NA;"108-65-6";0.1;0.1
+"Category_04";"Facility_07";"Markspray Gul";9;NA;"";0.5;NA;"85711-55-3";0.001;0.001
+"Category_04";"Facility_08";"T-rod";10;2;"l";4;NA;"67-64-1";0.025;0.025
+"Category_04";"Facility_08";"T-rod";10;2;"l";4;NA;"67-63-0";0.1;0.1
+"Category_04";"Facility_08";"T-rod";10;2;"l";4;NA;"64-17-5";0.5;0.5
+"Category_04";"Facility_08";"T-rod";10;2;"l";4;NA;"78-93-3";0.05;0.05
 "Category_05";"Facility_09";"Prorange fast cut 13e";11;NA;"";30;NA;"64742-55-8";0.1;0.25
 "Category_05";"Facility_09";"Prorange fast cut 13e";11;NA;"";30;NA;"64742-48-9";0.1;0.25
 "Category_06";"Facility_10";"HHS lube";12;NA;"";9.5;NA;"64742-49-0";0.15;0.2
@@ -41,9 +41,9 @@
 "Category_06";"Facility_11";"Glaceol";14;NA;"";309;NA;"107-21-1";0.6;0.6
 "Category_06";"Facility_11";"Glaceol";14;NA;"";309;NA;"107-21-1";0.6;0.6
 "Category_06";"Facility_12";"total clean";15;NA;"";NA;5;"68439-46-3";0.05;0.05
-"Category_06";"Facility_12";"Kylarvätska";16;NA;"";500;NA;"107-21-1";0.6;0.6
-"Category_06";"Facility_12";"Kylarvätska";16;NA;"";500;NA;"19766-89-3";0.01;0.05
-"Category_06";"Facility_12";"Kylarvätska";16;NA;"";500;NA;"3734-33-6";1e-04;1e-04
+"Category_06";"Facility_12";"Kylarvatska";16;NA;"";500;NA;"107-21-1";0.6;0.6
+"Category_06";"Facility_12";"Kylarvatska";16;NA;"";500;NA;"19766-89-3";0.01;0.05
+"Category_06";"Facility_12";"Kylarvatska";16;NA;"";500;NA;"3734-33-6";1e-04;1e-04
 "Category_07";"Facility_13";"Naturavfettning koncentrerad";17;NA;"";20;NA;"68439-46-3";0.03;0.05
 "Category_07";"Facility_13";"Naturavfettning koncentrerad";17;NA;"";20;NA;"135-37-5";0.012;0.017
 "Category_07";"Facility_14";"Firegum";18;0.15;"kg";NA;0;"1344-09-8";0.6;0.6
@@ -88,7 +88,7 @@
 "Category_12";"Facility_20";"Ozerna Rainbow";31;50;"kg";NA;40;"497-19-8";0.25;0.5
 "Category_12";"Facility_20";"Ozerna Rainbow";31;50;"kg";NA;40;"157627-86-6";0.01;0.1
 "Category_12";"Facility_20";"Ozerna Rainbow";31;50;"kg";NA;40;"68411-30-3";0.01;0.1
-"Category_12";"Facility_20";"MP 52 Väck Fläck";32;1;"l";0.1;NA;"67-63-0";0.1;0.2
+"Category_12";"Facility_20";"MP 52 Vack Flack";32;1;"l";0.1;NA;"67-63-0";0.1;0.2
 "Category_12";"Facility_21";"Bisoft Duo Blue";33;NA;"";NA;200;"67-63-0";0.02;0.02
 "Category_12";"Facility_21";"Mulan Spirit";34;NA;"";NA;600;"69011-36-5";0.15;0.3
 "Category_12";"Facility_21";"Mulan Spirit";34;NA;"";NA;600;"69011-36-5";0.3;0.3
@@ -106,7 +106,7 @@
 "Category_13";"Facility_23";"virkon";37;1.7;"kg";NA;0.5;"7727-21-1";0.0149;0.0149
 "Category_13";"Facility_23";"Lysis Reagent 1 part of cAMP kit";38;0.002;"kg";NA;0;"1119-94-4";1;1
 "Category_13";"Facility_23";"Developer";39;0.5;"l";0.05;NA;"497-19-8";0.01;0.05
-"Category_14";"Facility_24";"Bromsrengöring 500ml";40;6;"l";120;NA;"124-38-9";0.01;0.05
+"Category_14";"Facility_24";"Bromsrengoring 500ml";40;6;"l";120;NA;"124-38-9";0.01;0.05
 "Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"68037-01-4";0.5;0.7
 "Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"64742-55-8";0.01;0.1
 "Category_14";"Facility_24";"Lukoil ATF Synth MN Z3";41;6000;"l";5944;NA;"398141-87-2";0.01;0.025

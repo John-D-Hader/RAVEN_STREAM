@@ -7,9 +7,9 @@
 "Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"2634-33-5";0.001;0.001
 "Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"1310-73-2";0.001;0.001
 "Category_01";"Facility_01";"TURTLE HEAVYDUTY TFR";1;NA;"";700;NA;"24938-91-8";0.01;0.1
-"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvätska";2;100;"l";350;NA;"141-43-5";0.01;0.05
-"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvätska";2;100;"l";350;NA;"66204-44-2";0.01;0.05
-"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvätska";2;100;"l";350;NA;"55406-53-6";0;0.01
+"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvatska";2;100;"l";350;NA;"141-43-5";0.01;0.05
+"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvatska";2;100;"l";350;NA;"66204-44-2";0.01;0.05
+"Category_02";"Facility_02";"Ratema SLV03 Trumlingsvatska";2;100;"l";350;NA;"55406-53-6";0;0.01
 "Category_03";"Facility_03";"Herofix Cleaner 49i";3;NA;"";4.2;NA;"107-98-2";0.3;0.6
 "Category_03";"Facility_03";"Herofix Cleaner 49i";3;NA;"";4.2;NA;"64-17-5";0.15;0.3
 "Category_03";"Facility_03";"Herofix Cleaner 49i";3;NA;"";4.2;NA;"926-141-6";0.15;0.3
@@ -30,11 +30,11 @@
 "Category_07";"Facility_08";"Lena Mjuk";9;NA;"";6;NA;"16828-12-9";0.00075;0.00075
 "Category_07";"Facility_08";"Lena Mjuk";9;NA;"";6;NA;"9043-30-5";0.005;0.005
 "Category_07";"Facility_08";"Lena Mjuk";9;NA;"";6;NA;"532-32-1";0.002;0.002
-"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"100-51-6";0.4;0.6
-"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"1119-40-0";0.15;0.25
-"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"106-65-0";0.05;0.1
-"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"327-93-0";0.05;0.1
-"Category_08";"Facility_09";"Sanera Färgbort";10;1;"l";0.3;NA;"9004-65-3";0.0025;0.01
+"Category_08";"Facility_09";"Sanera Fargbort";10;1;"l";0.3;NA;"100-51-6";0.4;0.6
+"Category_08";"Facility_09";"Sanera Fargbort";10;1;"l";0.3;NA;"1119-40-0";0.15;0.25
+"Category_08";"Facility_09";"Sanera Fargbort";10;1;"l";0.3;NA;"106-65-0";0.05;0.1
+"Category_08";"Facility_09";"Sanera Fargbort";10;1;"l";0.3;NA;"327-93-0";0.05;0.1
+"Category_08";"Facility_09";"Sanera Fargbort";10;1;"l";0.3;NA;"9004-65-3";0.0025;0.01
 "Category_08";"Facility_10";"Dermasil Protein";11;400;"l";598;NA;"9014-01-1";0.001;0.01
 "Category_08";"Facility_10";"Dermasil Protein";11;400;"l";598;NA;"87199-17-5";0.001;0.01
 "Category_08";"Facility_11";"Sultraspot HC";12;NA;"";NA;80;"106232-83-1";0.15;0.15

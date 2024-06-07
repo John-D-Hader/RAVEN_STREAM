@@ -25,10 +25,10 @@ require(viridis)
 # Code below for accepting a user-defined input file is from: https://shiny.rstudio.com/reference/shiny/0.14/fileInput.html
 # Code below for user input data table heavily from here: https://community.rstudio.com/t/how-do-i-create-an-editable-table-to-allow-user-input-draw-scatterplot-and-fit-a-curve-through-those-points/83802 
 #
-##### Important note on input data for tool! #####
+##### Tracking note on input data for tool! #####
 #
 # The ECHA_STP_PNEC_Data.csv file was copied from the following directory: 
-# "C:/Users/JohnHader/Desktop/Käppala/Paper/Analysis/"
+# "C:/Users/JohnHader/Desktop/Kappala/Paper/Analysis/" (Swedish character changed to latin)
 # into the working directory (i.e., "C:/Users/JohnHader/Desktop/Code/RAVEN_STREAM/")
 # on 2023/03/06
 #
@@ -37,8 +37,8 @@ require(viridis)
 
 # RAVEN STREAM processing functions --------------------------------------------------
 
-# 
-# # Debug scratch code for initializing and running RAVE_STREAM outside of the GUI.
+
+# # Debug scratch code for initializing and running RAVEN_STREAM outside of the GUI.
 # 
 # # Establishes the input data table for the STP structure:
 # user_input_DT           <- data.table(v1=c("0","0","0"),v2=c("0","0","0"),v3=c("0","0","0"),stringsAsFactors = FALSE)
@@ -51,12 +51,12 @@ require(viridis)
 # sample_input_DT$`Volume (m^3)`  <- c(92430,18000,48606)
 # sample_input_DT$`Flow fraction` <- c(0.64,1,0.36)
 # #
-# upstream_data      <- fread(input = "C:/Users/JohnHader/Desktop/Käppala/Paper/Analysis/Upstream_Käppala_Chem_Data.csv", encoding = "UTF-8",stringsAsFactors = FALSE)
+# upstream_data      <- fread(input = "C:/Users/hadj/Desktop/RAVEN_STREAM/RAVEN_STREAM_transfer/RAVEN_STREAM/Load_Sample_Data.csv", encoding = "UTF-8",stringsAsFactors = FALSE)
 # scenario_label     <- "Debug_test"
 # yearly_to_MIS_perc <- "25th, 50th, & 75th"
 # STP_region_table   <- sample_input_DT
-# user_defined_plot_region <- "Old_AS"
-# setwd("C:/Users/JohnHader/Desktop/Code/RAVEN_STREAM")
+# user_defined_plot_region <- "Smaller_AS"
+# setwd("C:/Users/hadj/Desktop/RAVEN_STREAM/RAVEN_STREAM_transfer/RAVEN_STREAM")
 
 
 # Primary control function for the RAVEN STREAM analysis
@@ -82,7 +82,7 @@ RAVEN_STREAM_controller <- function(upstream_data,scenario_label,STP_region_tabl
   # Notes on Version History:
   #
   # Next steps:
-  # - Fix facility names where there were errors in the original datasheet
+  # - Insignificant aspect: fix facility names where there were errors in the original datasheet
   # - Revise/iterate warnings that indicate manual review is required to clean up formatted data
   # 
   #
@@ -93,20 +93,19 @@ RAVEN_STREAM_controller <- function(upstream_data,scenario_label,STP_region_tabl
   #  
   # Notes/some other things to do!: 
   #
-  # Related to the Käppala upstream processor script:
+  # Related to the Kappala upstream processor script:
   # After the script has been run, the user will likely wish to review the bulk output data to determine whether there are instances
   # where the reporting of a chemical concentration could be manually corrected so that the code can read it and thus
   # employ the corresponding chemical amounts in the final values (any chemicals without automatically-readable concentration
   # data are removed from analysis).This would likely need to be an iterative process of correcting concentration values and re-running code.
   #
-  # Also, while an attempt was made to ensure that the facility names, where provided, in row two of the original bulk dataset matched the 
+  # Miscellaneous notes from original upstream data cleaning: while an attempt was made to ensure that the facility names, where provided, in row two of the original bulk dataset matched the 
   # facility names throughout the rest of the data, there were several instances where the first facility had the name missing in the actual
-  # data. Also, more importantly, there were several instances where anomalies occured, namely in "Bra Bil 3 anl", where no facility names
+  # data. Also, more importantly, there were several instances where anomalies occurred, namely in "Bra Bil 3 anl", where no facility names
   # were provided, though they were sectioned off, so fake facility names were provided (...01, 02, and 03) and the "Vehicles other" sheet,
   # where additional facilities are present in the data relative to the row 2 list, and these are also out of order from the row 2 list (check with Marcus)
   # Further, may want to check that the first rows of the facility data aren't incorrectly labeled with the actual facility name in the row (e.g., chem. industries)
-  #
-  ###### Figure out where all Paragon 0 chemical usage values are coming from!!!
+  # Also, could be good to ask where all Paragon 0 chemical usage values are coming from. 
   #
   # S/N: This is what the WWTP parameter table columns should look like when input to the GUI (AS = activated sludge region, AD = anaerobic digestor)
   # STP_region_name           <- c("New_AS","Two_ADs","Old_AS")
@@ -116,9 +115,10 @@ RAVEN_STREAM_controller <- function(upstream_data,scenario_label,STP_region_tabl
   # Author: John Hader
 
   
-  # User interface input checking and formatting  -----------------------------
+  # User interface input checking and formatting -----------------------------
   
-  ############# These user input checks should be modified to direct to the GUI and 
+  ############# In a future version of RAVEN STREAM, these user input checks
+  ############# should be modified to direct to the GUI and 
   ############# inform the user about issues!!!
 
   # Increment the progress bar, and update the detail text.
@@ -168,13 +168,13 @@ RAVEN_STREAM_controller <- function(upstream_data,scenario_label,STP_region_tabl
   # Hard-coded analysis parameters: -----------------------------------------
   
   # Sewage Treatment Plant PNEC value data file definition.
-  ECHA_STP_PNEC_data_file <- c("ECHA_STP_PNEC_Data.csv")  # Existing chemical property file names (as of 2023/03/06, this is just the ECHA STP PNEC data, stored on server-side after production by Hader). (prior to this date, other chemical datasets had been included).
+  ECHA_STP_PNEC_data_file <- c("ECHA_STP_PNEC_Data.csv")  # Existing chemical property file names (as of 2023/03/06, this is just the ECHA STP PNEC data, stored on server-side after production by Hader. Prior to this date, other chemical datasets had been included).
   #
   # Miscellaneous analysis parameters.
   fac_to_remove        <- c("")    # Character vector of upstream facilities to exclude from analysis.
   MIS_thresh           <- 30       # Number above which all months-in-stock values will be set to 1+ this value (pretty sure this is just for plotting purposes, not any real calculations).
   MIS_adjust           <- TRUE     # Logical indicating whether or not the yearly usage chemical values should be adjusted to max-in-stock based on custom extrapolation method (as of 2023/01/08, hard-coding this as true).
-  yearly_to_MIS_perc   <- c(0.25,0.5,0.75) # Sets percentile of # months product in stock used to adjust yearly-use data to max-in-stock data. As of 2023/01/08, these are being hard-coded as being 3 (lower, middle, and upper), but some code structure exists for only handling a central-tendency value).
+  yearly_to_MIS_perc   <- c(0.25,0.5,0.75) # Sets percentile of number of months product in stock used to adjust yearly-use data to max-in-stock data. As of 2023/01/08, these are being hard-coded as being 3 (lower, middle, and upper), but some code structure exists for only handling a central-tendency value).
   plot_title_size      <- 20
   plot_axes_size       <- 50
   
@@ -187,7 +187,7 @@ RAVEN_STREAM_controller <- function(upstream_data,scenario_label,STP_region_tabl
     stop("Number of elements in the STP_region_name, STP_region_vol_m3, and STP_region_flow_fractions variables must be equal!")
   }
   
-  # Ensure values don't exceed practical thresholds. (Still need to do this!)
+  #### Another user data check could be to ensure values don't exceed practical thresholds (for future version).
   
   ############# End input checker function ####################
   
@@ -833,9 +833,22 @@ Exp_Risk_Plotting <- function(upstream_data,CAS_chem_prop,yearly_to_MIS_perc,STP
     stop("Non-unique CAS numbers detected in the Chemical Property data while conducting Exposure and Risk plotting!")
   }
   
+  
+  
   # Generates separate chem prop dataset with only valid STP PNEC values.
   valid_STP_PNEC_data <- CAS_chem_prop[,c("CAS_number","min_STP_PNEC_mg/L","max_STP_PNEC_mg/L","STP_PNEC_flag"),with=FALSE]
+  
+  
+  # ####### Temporary code for counting/analyzing 'bad' CAS number values etc. (added by JDH 2023/06/30; should be removed) ############
+  # 
+  # temp_out_dir_20230630 <- "C:/Users/JohnHader/Desktop/Kappala/Paper/Analysis/QA/Missing_STP_PNEC_chems/"
+  # fwrite(valid_STP_PNEC_data,file = paste0(temp_out_dir_20230630,"STP_PNEC_Data.csv"),sep=";")
+  # fwrite(upstream_data,      file = paste0(temp_out_dir_20230630,"Upstream_chem_data.csv"),sep=";")
+  
+  #### (line below belongs right after line above temp code, i.e., this is not temp code...) #####
   valid_STP_PNEC_data <- valid_STP_PNEC_data[(STP_PNEC_flag=="Bad_value_repaired")|(STP_PNEC_flag=="Hazard_unlikely/not_identified")|(STP_PNEC_flag=="N/A")]
+  
+  
   
   # Initializes the new columns of chem. prop data into the chem usage data.
   upstream_data[,`min_STP_PNEC_mg/L` := rep(NA,nrow(upstream_data))]
@@ -852,7 +865,7 @@ Exp_Risk_Plotting <- function(upstream_data,CAS_chem_prop,yearly_to_MIS_perc,STP
     stop("Non-unique column names deteted in upstream chemical use data while conducting Exposure and Risk plotting!")
   }
   
-  ############### Important note!! #################
+  ############### Kappala data processing side note #################
   #
   # Several (over 100) instances of a chemical usage have been found
   # that are the same CAS number for a given product. For at least some
@@ -1328,6 +1341,10 @@ ui <- fluidPage(
       # Note: As of 2023/03/12, this is temporarily only allowing download of the template data file.
       downloadButton("users_guide_download", label = "Download Template Data"),
       
+      # Button for user to download User's Guide File.
+      # Note: As of 2024/06/06, this is a test to see how this looks/works.
+      downloadButton("users_guide_download_02", label = "Download User's Guide"),
+      
       # Button for user to load in example simulation settings.
       actionButton(
         inputId = "example_data_button",
@@ -1438,7 +1455,7 @@ server <- function(input, output, session) {
   
   # Reads in the sample data, regardless of whether the user will use it, so that it is 
   # globally visible.
-  # Note, this data is the same file as the "Upstream_Käppala_Chem_Data.csv" file located here: C:\Users\JohnHader\Desktop\Käppala\Paper\Analysis
+  # Note, this data is the same file as the "Upstream_Kappala_Chem_Data.csv" file located here: C:\Users\JohnHader\Desktop\Kappala\Paper\Analysis (Swedish characters changed to latin)
   # (i.e., as of 2022/03/17, this is the real full-data analysis file, which needs to be switched out with a proper sample data file before going live).
   #
   # Note this is established using the reactiveValues function so as to make it globally accessible (so that it can be used as the input data to RAVENSTREAM later!)
@@ -1457,6 +1474,19 @@ server <- function(input, output, session) {
     },
     contentType = "application/csv"
   )
+  
+  # Handles downloading of User's Guide, for real (as of 2024/06/06, this is just to test having two buttons).
+  output$users_guide_download_02 <- downloadHandler(
+    filename <- function() {
+      paste("RAVEN_STREAM_User's_Guide", "pdf", sep=".")
+    },
+    
+    content <- function(file) {
+      file.copy("RAVEN_STREAM_User's_Guide.pdf", file)
+    },
+    contentType = "application/pdf"
+  )
+  
   
   # Establishes the base display for the WWTP parameters table.
   v <- reactiveValues(data = {
@@ -1537,7 +1567,7 @@ server <- function(input, output, session) {
     # depending on the user's specifications (the test data, if selected, is taken with precedent).
     if(is.null(input$input_file)==TRUE){
       
-      ##### Need to add a catch in here for if the user did not press the 'load sample' button to throw error and not run
+      ##### Future version: should add a catch in here for if the user did not press the 'load sample' button to throw error and not run ######
       
       # The data to be used for RAVENSTREAM is set to the sample data.
       RS_data <- sample_input_data$data
@@ -1552,7 +1582,7 @@ server <- function(input, output, session) {
       stop("Unexpected error when preparing input data for RAVENSTREAM")
     }
     
-    # Passes all user inputs to processing function. Note 4th argument had been "input$MIS_extrapolation"; this set permanantely to TRUE.
+    # Passes all user inputs to processing function.
     RS_output <- RAVEN_STREAM_controller(RS_data,input$analysis_label,
                                          v$data,input$STP_region_of_interest,updateProgress)
     
@@ -1578,9 +1608,12 @@ server <- function(input, output, session) {
     summary_counts        <- RS_output_2[[8]]
     analyzed_region       <- RS_output_2[[9]]
     
+    ### Future version: #####
+    ###
     ### Need to build the monthly CDF, histogram, and plotted
     ### region into the RS_output object, so can put into
-    ### outputs/display on figures as necessary"
+    ### outputs/display on figures as necessary
+    ###
     
     # Test of making variable reactive.
     to_download <- reactiveValues(dataset1 = chem_risk_plot, dataset2 = prod_risk_plot, dataset3 = chem_uncertainty_plot,
