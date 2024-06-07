@@ -1,5 +1,15 @@
 # RAVEN_STREAM
-John Hader, 2023/03/12
+John Hader
+
+Update 2024/06/07:
+
+The following updates were made to the code to reflect changes made to the R Shiny version of the tool on this same day:
+- A new version of app.R was uploaded with small changes to the GUI
+- New version of Load_Sample_Data.csv uploaded with non-latin characters removed
+- New version of RAVEN_STREAM_Data_Template.csv uploaded with non-latin characters removed
+- User's Guide file uploaded
+
+Notes from original upload on 2023/03/12:
 
 This is a repository for the files associated with the "RAVEN_STREAM" online tool, which is an open source tool intended for use by sewage treatment plants (STPs) to screen for the risk of spills of chemicals used at industries connected upstream to contaminate and negatively influence the biological treatment process at the STP. The study behind the development of this tool is currently under review, and the link to the full paper will be provided here upon publishing of this paper.
 
